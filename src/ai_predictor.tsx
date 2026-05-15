@@ -5,7 +5,7 @@ import axios from "axios"
 import { useNavigate } from "react-router-dom"
 import "./apie.css"
 
-const REACT_APP_API_URL = "http://127.0.0.1:8000"
+const REACT_APP_API_URL = "https://ai-healthcare-prediction-backend.onrender.com"
 
 // Types for our messages
 interface PredictionDetails {
